@@ -1,0 +1,16 @@
+{
+  "batches_total": 504,
+  "telemetry_rows_total": 6048,
+  "batch_size_rows": 12,
+  "honest_batches_verified": 504,
+  "verify_seconds_all_batches": 0.0104,
+  "avg_verify_ms_per_batch": 0.021,
+  "mac_bytes_per_batch": 32,
+  "overhead_bytes_per_row": 2.67,
+  "tamper_detected": true,
+  "tamper_reason": "MAC mismatch (tampered or forged batch)",
+  "replay_detected": true,
+  "replay_reason": "counter mismatch (replay or out-of-order batch)",
+  "forgery_detected": true,
+  "forgery_reason": "MAC mismatch (tampered or forged batch)"
+}

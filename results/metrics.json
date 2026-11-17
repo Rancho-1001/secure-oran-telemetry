@@ -1,0 +1,62 @@
+{
+  "threshold": 2.7338,
+  "rows_total": 6048,
+  "rows_evaluated": 4752,
+  "anomalous_points_evaluated": 112,
+  "point_precision": 1.0,
+  "point_recall": 0.8571,
+  "point_f1": 0.9231,
+  "events_detected": 4,
+  "events_total": 6,
+  "median_detection_latency_minutes": 0.0,
+  "event_results": [
+    {
+      "cell": "cell_a",
+      "type": "jamming",
+      "start_step": 408,
+      "duration_steps": 18,
+      "detected": false,
+      "detection_latency_minutes": null
+    },
+    {
+      "cell": "cell_b",
+      "type": "signaling_storm",
+      "start_step": 726,
+      "duration_steps": 24,
+      "detected": true,
+      "detection_latency_minutes": 0
+    },
+    {
+      "cell": "cell_c",
+      "type": "rogue_cell",
+      "start_step": 954,
+      "duration_steps": 30,
+      "detected": true,
+      "detection_latency_minutes": 0
+    },
+    {
+      "cell": "cell_a",
+      "type": "slice_sla_attack",
+      "start_step": 1322,
+      "duration_steps": 16,
+      "detected": false,
+      "detection_latency_minutes": null
+    },
+    {
+      "cell": "cell_b",
+      "type": "jamming",
+      "start_step": 1500,
+      "duration_steps": 20,
+      "detected": true,
+      "detection_latency_minutes": 0
+    },
+    {
+      "cell": "cell_c",
+      "type": "signaling_storm",
+      "start_step": 1858,
+      "duration_steps": 22,
+      "detected": true,
+      "detection_latency_minutes": 0
+    }
+  ]
+}
